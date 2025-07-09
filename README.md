@@ -98,6 +98,9 @@ Below is a handy reference for the most common commands I use. 🚀
 ## 🔍 View Commit History
     git log
 
+-----
+
+
 # 🎉 Happy Coding!
 This README.md is a living document.
 I’ll update it as I learn more Git tricks! ✨
