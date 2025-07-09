@@ -5,6 +5,8 @@ Below is a handy reference for the most common commands I use. 🚀
 
 
 ---
+---
+
 
 ## 🔧 Setup Your Identity
 ### Check your Git configuration
