@@ -8,94 +8,94 @@ Below is a handy reference for the most common commands I use. 🚀
 
 ## 🔧 Setup Your Identity
 ### Check your Git configuration
-git config --list
+    git config --list
 
 ### Set your username and email
-git config --global user.name "YourName"
-git config --global user.email "you@example.com"
+    git config --global user.name "YourName"
+    git config --global user.email "you@example.com"
 
 ---
 
 ## 📁 Initialize or Clone a Repository
 ### Initialize a new local repository
-git init
+    git init
 
 ### Or clone an existing remote repository
-git clone <repo-url>
+    git clone <repo-url>
 
 ---
 
 ## 📝 Basic Workflow
 ### Check status of your files
-git status
+    git status
 
 ### Add specific file(s)
-git add file.txt
+    git add file.txt
 
 ### Add all changes
-git add .
+    git add .
 
 ### Commit changes with a message
-git commit -m "Your commit message"
+    git commit -m "Your commit message"
 
 ### Push changes to remote
-git push
+    git push
 
 ### Push and set upstream to main branch
-git push -u origin main
+    git push -u origin main
 
 ### Pull latest changes from remote
-git pull
+    git pull
 
 ---
 
 ## 🌿 Working with Branches
 ### See all branches
-git branch
+    git branch
 
 ### Create a new branch
-git checkout -b new-branch
+    git checkout -b new-branch
 
 ### Switch back to main branch
-git checkout main
+    git checkout main
 
 ### Merge a branch into main
-git merge new-branch
+    git merge new-branch
 
 ### Delete a branch
-git branch -d new-branch
+    git branch -d new-branch
 
 ---
 
 ## 🧹 Undoing Changes
 ### Restore a specific file to last commit
-git restore file.txt
+    git restore file.txt
 
 ### Unstage a staged file
-git restore --staged file.txt
+    git restore --staged file.txt
 
 ### Reset last commit but keep changes staged
-git reset --soft HEAD~1
+    git reset --soft HEAD~1
 
 ---
 
 ## 📡 Working with Remote Repos
 ### Show remote URLs
-git remote -v
+    git remote -v
 
 ### Add a remote repo
-git remote add origin <url>
+    git remote add origin <url>
 
 ### Rename default branch to main
-git branch -M main
+    git branch -M main
 
 ### Push changes and set upstream
-git push -u origin main
+    git push -u origin main
 
 ---
 
 ## 🔍 View Commit History
-git log
+    git log
 
 # 🎉 Happy Coding!
 This README.md is a living document.
