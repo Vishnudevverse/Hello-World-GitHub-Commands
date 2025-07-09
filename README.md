@@ -4,6 +4,9 @@ This repository is my **personal playground** to learn and practice **Git** and 
 Below is a handy reference for the most common commands I use. 🚀
 
 
+
+
+
 ## 🔧 Setup Your Identity
 ### Check your Git configuration
 git config --list
@@ -12,12 +15,18 @@ git config --list
 git config --global user.name "YourName"
 git config --global user.email "you@example.com"
 
+
+
+
 ## 📁 Initialize or Clone a Repository
 ### Initialize a new local repository
 git init
 
 ### Or clone an existing remote repository
 git clone <repo-url>
+
+
+
 
 ## 📝 Basic Workflow
 ### Check status of your files
@@ -41,6 +50,9 @@ git push -u origin main
 ### Pull latest changes from remote
 git pull
 
+
+
+
 ## 🌿 Working with Branches
 ### See all branches
 git branch
@@ -57,6 +69,9 @@ git merge new-branch
 ### Delete a branch
 git branch -d new-branch
 
+
+
+
 ## 🧹 Undoing Changes
 ### Restore a specific file to last commit
 git restore file.txt
@@ -66,6 +81,9 @@ git restore --staged file.txt
 
 ### Reset last commit but keep changes staged
 git reset --soft HEAD~1
+
+
+
 
 ## 📡 Working with Remote Repos
 ### Show remote URLs
@@ -80,8 +98,14 @@ git branch -M main
 ### Push changes and set upstream
 git push -u origin main
 
+
+
+
 ## 🔍 View Commit History
 git log
+
+
+
 
 # 🎉 Happy Coding!
 This README.md is a living document.
