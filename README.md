@@ -12,7 +12,7 @@ Below is a handy reference for the most common commands I use. 🚀
 
 ### Set your username and email
     git config --global user.name "YourName"
-    
+###
     git config --global user.email "you@example.com"
 
 ---
